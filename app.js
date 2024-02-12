@@ -11,6 +11,7 @@ let more = document.getElementById('morePlaces');
 more.style.color = 'red';
 more.style.fontSize = '3rem';
 more.style.backgroundColor = 'tomato';
+more.style.borderRadius = '5px';
 
 let test = document.getElementById('morePlaces');
 test.classList.add('testmore');

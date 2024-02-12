@@ -13,3 +13,6 @@ for (const section of mysection) {
 let lastSection = document.getElementById('lastSection');
 lastSection.style.backgroundColor = '#fff'
 
+
+let mylastfirst = document.getElementById('mylastfirst');
+mylastfirst.classList.add('lastfirst');
