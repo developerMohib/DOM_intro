@@ -1,5 +1,5 @@
 
-let mysection = document.querySelectorAll('section');
+let mysection = document.querySelectorAll( 'section');
 
 
 for (const section of mysection) {
@@ -16,3 +16,9 @@ lastSection.style.backgroundColor = '#fff'
 
 let mylastfirst = document.getElementById('mylastfirst');
 mylastfirst.classList.add('lastfirst');
+
+let placesUl = document.getElementById( 'newLiadd');
+
+let li = document.createElement('li');
+li.innerText = 'my new brand li';
+placesUl.appendChild(li)
